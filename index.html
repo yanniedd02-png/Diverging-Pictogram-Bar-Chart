@@ -1,0 +1,371 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=bar-negative&code=7VrrjxzFEf_uv2Liw-ye725vZndnX-czAhsbFJAsjCCJhcTs7uzuxLMzq9k5fOfjPiEkkBJFkRIeCYkSPpAHSkgCCggM_md8fnziX8ivqntmuudxvkTEcSTv6WZ7u6uqq6qrqqurZxQGy9jYc51oaWwbV04YhtXvmev0tPjZ5GeLn21-2vzs8LPLzx4_--sGo_cZvc_ofUbvM3qf0fuM3mf0PqP3Gb0v0JumCXQ8gY4n0PEEOp5AxxPoeAIdT6DjCXQ8E3SL0S1GtxjdYnSL0S1GtxjdYnSL0a3-iVe2TghlzMJgehX_553YecG5JtViNqxmj6RGo2URM2hYdpcbZrfZAgNo2P22aHSsLnigRpsUQo2-jRnR6JkkPjU6HaAzcbMP6tzZN9tgkhrdDjcss0mqo-m6tiDVb9sSuNsWLJnNtiDeNzuQl1iySExBXKIJWLMtANqyU7DZFoIkY4IFGwqkL_yShASwLQhJJiT13JeEzGYOdnw_0_Jy5gbX8a9reQOwTZtE4VarCa641SRuudVO-zpkY9RqdclMRYuMhVtW0moDUrY6ttA3_bBT4h2bFE2tLuuVW-Ai6Uum7rJRU6sHNmRfqyUxOr2uZBuzAENO07VIs4Ik2Sa3uuRETKibyNpvtyWhXq-VjpKDiT5aCiZudZI-s5VJ07WzaciVGIBtgvt6ZIxChkQtPZuWSExDlsKtVlNO07PJ1rnV7rVp2eS6LaJw5C6XL4at8-7Imzs-xY36GKu4amyfNfbBj2F4E9FlbG9v87qvGpEb70QB_9hiGNmxQORxL_ihEzNGIw4veLvuuN5aXd06cZBOqzolJsz5aGPuLOpFzkChaGzAztleNbZEH4XzoRe4Y4nO0ZKR6tRcN7xg7O4q4kvRrqjzXGGgV9Y11tNO8Q2Bs0l9Z-j6P0wCcxqVRRAV8U8ENhHkerREm5vG3Td-cvv9T-58_fPbv7tx782f3vn6r5LeNPLG58Jg4k1BT_A5Cv2deXAu3AnigdFe576FG43cIL4cu4uBiASwIdC1zFPGvXc_u_erXzDY0Fm650I_jAZGbeXp8_RXEwR8aCodcU36qzGFOx-_c-fLm_c-_ODu2_9gyGnkjD2ey4nAAOhcoD9JJxl9OhjT2IQ_NTaJyU4wir0wgKKht-giJHsKeqrDlpz5ct1wFt5qKiLvb8-SfiE3RhqvOf6OW29C0xnA8vpL1KtBmBrE7GoRwtIgyBYS67giZqQ1UQDOhWE0lhRG1K5fwaJK0NUrFsAz6DBwL4m1eNkbxzOJtvSuu8Bq8HZoAsnUkGI3qETKDKChLHIZlaETPeN601msTwrLYy6N0zCMflPFIGpu9IO8bEXSAvCiswBop2GrQ3Pnx6EcaWn9XpD0mzrGaAbDKedU-KjvBtN4VlDt1FlcBqAkKK1bOI4w8W9vvHXrqzdvv_O3ww9_--2Nt8Ui-i7N6PljWB25ZLK4ZNpfvXf41j8FBVj34W_eNdaIpqAmDF-Zfxw5155yRlenEVxvTOZLMVQJIJLs4ecf3frmD2Dm9ud_P_zgU3AipkhhJmFk1Jmv0AcJa4sbZ7YVZ8dipE7Ow2triW8kH-kC5IW0gslabmSLtdmkXyB9umBha4k2hYJ1mnBPoihJr-WRdZQSfG95UUYB4otkxH5SIdsRtOSiNRY7y1ldl50-8d7CRYiJ3FEsY4_6Wc4cGt43dgdSEFjXIHHmjcxZNhGIr5FYg4KSNhIlnQbMjKEHipcdlMwa7_mYVVHAE7lVS23A832wVzqmSEdh2YkQiSEG-Qc_d5sDA0nAHr7MIg_ZWiCaX47DxXLASVr1Z98IJ5OlC-HMBuITIw7UBVOCepnU5bTAYTUl3jyMg0pSr5SOFOEPDFpjoUxlmnSfK2P3OuTUOmn7zqbQXPlnnwpXvvfR-7e_-OQBu_Ka5sprRh3IG9bqI3d-5M7HdOdjuOBx3dlsIKN8EKGBKT3sgUGkDkp6LbIFRIq7n31y5083b__ys1tf_Pnw19_c_f0f73383uGXH1FCkhCgg1aS3MKXzHw8SJMIJQcpRBxPxBvvqGjjFWNN5teUWVdlDV4xyOi-fRyXzhl-iVvrrm0NjF34Ab6kV9AvfKkJY4WNSU_dRyMKr6KlaCQ92qzzKYeFgQ1WkSpYQd4SigaX7hQPbL0KW4NXujE8WrOj1uzWF385vPlGfsGOuVFVaEfTjFwtTT9Z3_219B1p6D5xjZ_yVFQ849T1E_csvKZXN7i0zOVjrhJzJZgLvlzU5dotFWrpJEdhLyXQ8IKRvzN2l1yNWU3NvlL9Uu-xu6slCImOdKkJCukB1Xn0AWy8ylkXlTKqJ4sDbw4yTS9y_UT6Sd-bBmQE7qSQrdD4S24UeyPHT-Dm3njsF8xlEmIXRj6CZWs1UK0tjr4ss5QWlJob5Z2tttJqtcrIXnDmng8Jas_vRZ4zNl5y8DUECxmoaiiwEEv8YtOQe51WOpRVtDrXUFD6Wl4Kl17svYY27-W5czCtNYOmxUTj9deNrAfW5U6oOpfUGDOLTBtifme4TGo4zzvxrIHfgrJixLIA4oejqxxJE9iJjwWs11MSm1QbQ6DEMd_d6BcIRO7coZoeFYRSHCSXGV2qoZhWJV5SvqlnlJIpT-dLQ9Lj0hrFTgSrj6FV4GfaRcaZFV82jSbSmg2to0Rv2pZj8pajyFC6yygKpLOCPn_GGSJW9mOjKNF_J-HPNj3BYEXqT9pIk_8ca_9ewp8kjmzYFRG1WRlRtYoVGYNH9rZqnDJske5Bp2nVbJAWynIEMj2v5dajnq8x8ulvlSyjYigf7TVrIU_NGfBZupv6bkxEp_wwWYjO2QM3kOr1zS0GlrVKicqZhFYxu3vIba7G449n8QyLW760srycFswThNM45phl5s3zJeB1Df0UMhF5tCkmbE9oU6V3R4BdM2qnaiUYg3IMjuTAqGQuV01RdA6vVHVuk5rt_Bodzz7zGcmRiYmWn2QKLE9rYdlCjPLhqgylmKhosoqsBQLXIjLzihT_-GlMWUZSsoZ6wiPvrcogkqSnXUh6yhKcF8JhGIdKXlOS3mRO2TpmHqwkPXV5y7RuTHC9iK_aitV90j5n1yS2Civvm9aNOKJnbeWc1Xqq-XQCqt4z7if2Q7n2AipLbynABDw7XPBlWXLrF3uxbk7ChE7KcO9MXTL8OPKGO4wXh8bF85eM4R7mc3zDRdUsdk9mSiEjwOSt1illPVFego4spQOTXE5iXu5cm61lQ7xpUL6MNWxvuJjN24QsANVWcGDIWZSewLpR5F1zkc25UbbKcnXlF0pHi5k3UgtjqXaFdybiti2IK8SsddtopgFdqLN2WV7-YkhPz8XvLCFHDUu3-GquUYxSrLGCM9tuNO_D2zO4fza-j8cDZ65tZ6zhDY0S3lAJK-NKMoH3hJJRgVfzYsf3RrJTPeaUevfxmMTtxf3YbP7v2bThLv8H2rR7jf7Dok15NI_D0I89sKMEQWxhU5fiiLPrLZU4Qj8vhR5t_cywEBE54zi8BsoZIA5LcydmMPkmQu4kq1wAI8InryQIUFQNGmlvWRaivV2QQsprbfX4J2W7HBP4q4_tE8bBmWG0efbVMrq8J-Xeiamkr7wKkXsJpxKFSzU8x_fSd4FKEqCMaSSxr55ZLpxAGMn2ybG3XPjO3sALqDy1wXn51tyJpl6wwXnHwF7sbg2RvbjRBpX-d5YDy0SXSM-5KVNybg_TqtSG2DpWbGfYGjW3Tp49s0kTn01C98B4bD-tFAghOIVdVfLGg1NlutUrhKQDobSHVwfjbqdl9zIdpFsEKUFy_x8JL5OUTLpCpiTfG3KnuF_kGiUqewORI2X7skdD-ZzD6qg7vlAEem21V4adptqHqBCHc3T3kl45D1nxj0IaUhIATZzE_30Pqs6lG3tPIlawExQu4K6D6HNYNFwmUj6njcljJOqbuuKEOKh9at18aVmgz6pDEVXrnDkBsmwRUfNUoOPzbux4CLAiG9WGhSUlr3HFkRPAKOjIk5M4s6P0la-JSX_5RAyRPKO3MhqNlAxMjcy7pEItLgt9c51OIYpaB85Z9JZB1uWQ2tUeCt3PwV8qjCoBedGjdTkS5Dk6PB0BA-_04tKpVOti-2DhpFQjZNLTMNojwcj0RKF5iV9e8JqLFyNTczlKlKNk0JgX7CogKNAC5ijmedyNPFdcFoP1wJkT6xT0ie1Ekp0lPIo6xDt5z8YunEh_Py8VUn2fEp1uMArHPDn27CbPegLXswdb_wI&enc=deflate
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const years = [
+  1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 
+  1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 
+  2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 
+  2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019
+];
+const hongkongDataRaw = [
+  0.12886, 0.13104, 0.11574, 0.07239, 0.05949, 0.06171, 0.06490, 0.06957, 0.08096, 0.08664, 
+  0.09288, 0.09045, 0.09765, 0.10294, 0.11750, 0.09458, 0.09746, 0.10247, 0.09063, 0.07116, 
+  0.050, 0.046, 0.043, 0.040, 0.041, 0.044, 0.043, 0.045, 0.052, 0.055, 
+  0.051, 0.056, 0.058, 0.050, 0.050, 0.050, 0.051, 0.050, 0.046, null
+];
+const shenzhenDataRaw = [
+  -0.02547, -0.02324, -0.02240, -0.02424, -0.02691, -0.03782, -0.03703, -0.03103, -0.04026, -0.04654, 
+  -0.05324, -0.06565, -0.07458, -0.07254, -0.07440, -0.07991, -0.08024, -0.07338, -0.06877, -0.06540, 
+  -0.07144, -0.07210, -0.07785, -0.08747, -0.09448, -0.08835, -0.08787, -0.08852, -0.06167, -0.08034, 
+  -0.07544, -0.07299, -0.08247, -0.07871, -0.07903, -0.08551, -0.08716, -0.08322, -0.08586, -0.08484
+];
+
+const processTo3Decimals = (data) => {
+    if (data === null) return null;
+    return parseFloat(data.toFixed(3));
+};
+
+const hongkongData = hongkongDataRaw.map(processTo3Decimals);
+const shenzhenData = shenzhenDataRaw.map(processTo3Decimals);
+
+const combinedData = years.map((year, index) => {
+    return [shenzhenData[index], hongkongData[index], index];
+});
+
+const labelYears = [1980, 1984, 1996, 2003, 2012, 2018];
+
+// 背景网格配置
+const gridConfig = {
+    columnCount: 4,
+    percentStep: 0.0457, // 10% 间隔
+    baseColor: '#EDEDED',
+    lineColor: '#e0e0e0', // 竖线颜色
+    gradientStart: '#EFEFEF',
+    gradientEnd: '#ffffff'
+};
+
+function renderGridBars(params, api) {
+    const yIndex = api.value(2);
+    const szValue = api.value(0);
+    const hkValue = api.value(1);
+    const year = years[yIndex];
+
+    const yCoord = api.coord([0, yIndex])[1];
+    const onePercentWidth = api.size([0.004, 0])[0];
+    const tenPercentWidth = api.size([gridConfig.percentStep, 0])[0];
+    const barHeight = api.size([0, 1])[1] * 0.92;
+    const centerX = api.coord([0,0])[0];
+    const centerGap = 6.5;
+    const majorGap = 3;
+    const minorGap = 0.5;
+    const chartHeight = api.size([0, years.length])[1];
+    const gapSize = 0.5; // 10%背景间隔（仅新增）
+
+    let children = [];
+
+    // 绘制背景色块 + 10%间隔竖线
+    const drawBackgroundGrid = () => {
+        // 左侧（深圳）背景
+        for (let col = 1; col <= gridConfig.columnCount; col++) {
+            const startX = centerX - centerGap/2 - col * tenPercentWidth + gapSize;
+            const endX = startX + tenPercentWidth;
+            
+            const isGradient = col === gridConfig.columnCount;
+            
+            children.push({
+                type: 'rect',
+                shape: { x: startX, y: yCoord - barHeight/2, width: tenPercentWidth - gapSize*2, height: barHeight },
+                style: isGradient ? {
+                    fill: {
+                        type: 'linear', x: 0, y: 0, x2: 1, y2: 0,
+                        colorStops: [
+                            { offset: 0.4, color: gridConfig.gradientEnd },
+                            { offset: 1, color: gridConfig.gradientStart }
+                        ]
+                    }
+                } : { fill: gridConfig.baseColor },
+                z: 0
+            });
+        }
+
+        // 右侧（香港）背景
+        for (let col = 1; col <= gridConfig.columnCount; col++) {
+            const startX = centerX + centerGap/2 + (col-1) * tenPercentWidth + gapSize;
+            const endX = startX + tenPercentWidth;
+            
+            const isGradient = col === gridConfig.columnCount;
+            
+            children.push({
+                type: 'rect',
+                shape: { x: startX, y: yCoord - barHeight/2, width: tenPercentWidth - gapSize*2, height: barHeight },
+                style: isGradient ? {
+                    fill: {
+                        type: 'linear', x: 0, y: 0, x2: 1, y2: 0,
+                        colorStops: [
+                            { offset: 0, color: gridConfig.gradientStart },
+                            { offset: 0.7, color: gridConfig.gradientEnd },
+                            { offset: 1, color: gridConfig.gradientEnd }
+                        ]
+                    }
+                } : { fill: gridConfig.baseColor },
+                z: 0
+            });
+        }
+
+        // 绘制 10% 间隔竖线（贯穿整个图表高度）
+        if (yIndex === 0) {
+            // 左侧竖线
+            for (let i = 1; i <= gridConfig.columnCount; i++) {
+                const x = centerX - centerGap/2 - i * tenPercentWidth;
+                children.push({
+                    type: 'line',
+                    shape: { x1: x, y1: 0, x2: x, y2: chartHeight },
+                    style: { stroke: gridConfig.lineColor, lineWidth: 1 },
+                    z: 0
+                });
+            }
+            // 右侧竖线
+            for (let i = 1; i <= gridConfig.columnCount; i++) {
+                const x = centerX + centerGap/2 + (i-1) * tenPercentWidth;
+                children.push({
+                    type: 'line',
+                    shape: { x1: x, y1: 0, x2: x, y2: chartHeight },
+                    style: { stroke: gridConfig.lineColor, lineWidth: 1 },
+                    z: 0
+                });
+            }
+            // 中心线
+            children.push({
+                type: 'line',
+                shape: { x1: centerX, y1: 0, x2: centerX, y2: chartHeight },
+                style: { stroke: gridConfig.lineColor, lineWidth: 1 },
+                z: 0
+            });
+        }
+    };
+
+    drawBackgroundGrid();
+    const showYears = [1980,1985,1990,1995,2000,2005,2010,2015,2019];
+ if (showYears.includes(year)) {
+     children.push({
+         type: 'text',
+         style: {
+             text: year,
+             x: api.coord([-0.17, 0])[0],
+             y: yCoord,
+             textAlign: 'left',
+             textVerticalAlign: 'middle',
+             fontSize: 13.55,
+             fontWeight: 300,
+             fill: '#333',
+             fontFamily: 'Myriad Variable'
+         },
+         z: 1
+     });
+ }
+
+    const processData = (value, isPositive, color) => {
+        if (value === null || value === undefined) return;
+        
+        const absValue = Math.abs(value);
+        const blockCount = Math.floor((absValue / 0.01) + 1e-9);
+        const remainder = absValue - blockCount * 0.01;
+        const remainderWidth = (remainder / 0.01) * onePercentWidth;
+
+        let currentPos = isPositive ? centerGap / 2 : -centerGap / 2;
+        
+        for (let i = 0; i < blockCount; i++) {
+            const blockX = isPositive ? currentPos : currentPos - onePercentWidth;
+            children.push({
+                type: 'rect',
+                shape: { x: centerX + blockX, y: yCoord - barHeight / 2, width: onePercentWidth, height: barHeight },
+                style: { fill: color },
+                z: 2
+            });
+            const gap = (i + 1) % 5 === 0 ? majorGap : minorGap;
+            currentPos += isPositive ? (onePercentWidth + gap) : -(onePercentWidth + gap);
+        }
+        
+        if (remainderWidth > 0.1) {
+            const blockX = isPositive ? currentPos : currentPos - remainderWidth;
+            children.push({
+                type: 'rect',
+                shape: { x: centerX + blockX, y: yCoord - barHeight / 2, width: remainderWidth, height: barHeight },
+                style: { fill: color },
+                z: 2
+            });
+            currentPos += isPositive ? remainderWidth : -remainderWidth;
+        }
+
+        if (labelYears.includes(year) && absValue > 0) {
+            const percentValue = absValue * 100;
+            const labelValue = (percentValue % 1 === 0) 
+                 ? percentValue.toFixed(0) + '%' 
+                 : percentValue.toFixed(1) + '%';
+            const labelX = centerX + currentPos + (isPositive ? 5 : -5);
+            children.push({
+                type: 'text',
+                style: {
+                    text: labelValue,
+                    x: labelX,
+                    y: yCoord,
+                    textAlign: isPositive ? 'left' : 'right',
+                    textVerticalAlign: 'middle',
+                    fill: '#333', 
+                    fontSize: 14,
+                    fontWeight: 400,
+                    fontFamily: 'Roboto'
+                },
+                z: 3
+            });
+        }
+    };
+
+    processData(szValue, false, '#17A5C5');
+    processData(hkValue, true, '#C13B2E');
+    
+    return { type: 'group', children };
+}
+
+option = {
+    title: {
+        text: "Percentage contribution to GDP by real estate",
+        left: '33%',
+        top: 31,
+        textStyle: { 
+            fontSize: 14.5, 
+            fontWeight: 'normal', 
+            color: '#000',
+            fontFamily: 'Merriweather'
+        },
+    },
+    graphic: [
+        { type: 'text', left: '41%', top: '74', style: { text: 'Shenzhen', fontSize: 13.5, fontWeight: 301, fill: '#333', fontFamily: 'Merriweather' } },
+        { type: 'text', left: '55.2%', top: '74', style: { text: 'Hong Kong', fontSize: 13.5, fontWeight: 301, fill: '#333', fontFamily: 'Merriweather' } },
+        { type: 'text', left: '45%', top: '103', style: { text: '10%', fontSize: 13.5, fill: '#999', fontStyle: 'italic', fontWeight: 300, fontFamily: 'Roboto' } },
+        { type: 'text', left: '40.4%', top: '103', style: { text: '20%', fontSize: 13.5, fill: '#999', fontStyle: 'italic', fontWeight: 300, fontFamily: 'Roboto' } },
+        { type: 'text', left: '54.5%', top: '103', style: { text: '10%', fontSize: 13.5, fill: '#999', fontStyle: 'italic', fontWeight: 300, fontFamily: 'Roboto' } },
+        { type: 'text', left: '58.9%', top: '103', style: { text: '20%', fontSize: 13.5, fill: '#999', fontStyle: 'italic', fontWeight: 300, fontFamily: 'Roboto' } },
+    ],
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: { type: 'shadow' },
+        formatter: (params) => {
+            const dataIndex = params[0].dataIndex;
+            const year = years[dataIndex];
+            let tooltipStr = `${year}<br/>`;
+            const szVal = shenzhenData[dataIndex];
+            const hkVal = hongkongData[dataIndex];
+            if (szVal !== null) {
+                tooltipStr += `<span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#5ab3c2;"></span>Shenzhen: ${Math.abs(szVal * 100).toFixed(1)}%<br/>`;
+            }
+            if (hkVal !== null) {
+                tooltipStr += `<span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#d76358;"></span>Hong Kong: ${(hkVal * 100).toFixed(1)}%<br/>`;
+            }
+            return tooltipStr;
+        }
+    },
+    legend: { show: false },
+    grid: {
+        left: '160',
+        right: '150',
+        top: '120',
+        bottom: '80',
+    },
+    dataZoom: [
+        {
+            type: 'slider',
+            yAxisIndex: 0,
+            zoomLock: true,
+            width: 15,
+            right: 10,
+            start: 0,
+            end: 80,
+            handleSize: 0,
+            showDetail: false,
+            borderColor: 'transparent',
+            backgroundColor: '#f0f0f0',
+            fillerColor: '#ccc'
+        }
+    ],
+    xAxis: {
+        type: 'value',
+        min: -0.4,
+        max: 0.4,
+        axisLine: { show: false },
+        axisTick: { show: false },
+        axisLabel: { show: false },
+        splitLine: { show: false }
+    },
+    yAxis: {
+ type: 'category',
+ data: years,
+ inverse: true,
+ axisLine: { show: false },
+ axisTick: { show: false },
+ axisLabel: { 
+     show: false
+ },
+ splitLine: { show: false }
+ },
+ series: [
+ {
+ name: 'Data',
+ type: 'custom',
+ renderItem: renderGridBars,
+ data: combinedData,
+ encode: { y: 2 }
+ }
+ ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
